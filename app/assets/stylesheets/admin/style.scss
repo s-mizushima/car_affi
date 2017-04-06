@@ -1,0 +1,62 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+.tab-content{
+  padding:20px;
+}
+.answer-row{
+  padding:0px 15px 0px;
+  //border:solid 3px #eee;
+  margin-bottom:20px;
+  h3{
+    font-size:18px;
+  }
+  font-size:12px;
+}
+.textcenter{
+  text-align:center
+}
+#edit_element{
+  display:none;
+}
+.btn .glyphicon{
+  margin-right:5px;
+}
+.question-row{
+  margin-bottom:60px;
+  padding-bottom:20px;
+  border-bottom:solid 1px #eee;
+  h1, .h1, h2, .h2, h3, .h3{
+    margin-top:0px;
+  }
+}
+img.preview{
+  width:250px;
+  margin:10px 0px;
+}
+.no_margin{
+  margin:0px;
+  padding:0px;
+  line-heihgt:1em;
+}
+.preview_wrap{
+  margin:15px auto;
+}
+.pile_up_img_wrap{
+  text-align:center;
+  margin-bottom:40px;
+  //height:315px;
+  overflow:hidden;
+  position:relative;
+  width:600px;
+  margin:0px auto 40px;
+  .pile_up_txt_wrap{
+    position:absolute;
+    top:50px;
+    //left:50px;
+    text-align:center;
+    font-size:24px;
+    line-height:0px;
+    marign:0px;
+    padding:0px;
+    font-family: 'Noto Sans Japanese', sans-serif;
+  }
+}
